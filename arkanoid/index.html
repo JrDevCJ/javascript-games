@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkanoid Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="scenes">
+            <div id="menu">
+                <h1>Arkanoid Game</h1>
+                <button id="startButton">Start Game</button>
+            </div>
+            <div id="levelUp">
+                <h2>Level Completed!</h2>
+                <button id="nextLevelButton">Next Level</button>
+            </div>
+            <div id="gameOver">
+                <h1>Game Over</h1>
+                <button id="restartButton">Restart Game</button>
+
+                <div id="gameOverScore">
+                    <h2>Your Score: 100</h2>
+                    <h2>Best Score: 100</h2>
+                </div>
+
+            </div>
+
+            <canvas id="gameCanvas" width="480" height="320"></canvas>
+        </div>
+
+        <div class="game-info">
+
+            <div id="controls" class="controls">
+                <div class="sound-control">
+                    <label>Sound:</label>
+                    <button id="toggleSound">TURN OFF</button>
+                </div>
+                <div class="volume-control">
+                    <label for="volumeControl" id="volumeControlLabel">Music Volume:</label>
+                    <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="0.3">
+                </div>
+            </div>
+
+            <div class="score">
+                <h3>Records</h3>
+                <ul id="recordsList">
+                    <li>1º - 000 Points</li>
+                    <li>2º - 000 Points</li>
+                    <li>3º - 000 Points</li>
+                    <li>4º - 000 Points</li>
+                    <li>5º - 000 Points</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

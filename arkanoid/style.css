@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap");
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+:root {
+  --green: rgb(166, 247, 80);
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #6e7888;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222738;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.scenes {
+  display: flex;
+  flex-direction: column;
+}
+
+canvas {
+  border: 1px solid var(--green);
+  background-color: #181825;
+}
+
+#menu,
+#gameOver,
+#levelUp {
+  min-width: 400px;
+  min-height: 300px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.95);
+  background-color: #181825;
+  padding: 30px;
+  border: 2px solid #0095dd;
+  text-align: center;
+  border-radius: 10px;
+  gap: 1rem;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--green);
+}
+
+#gameOver h1 {
+  color: #f22c3d;
+}
+
+.game-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+  gap: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+button {
+  padding: 0.4rem 0.5rem;
+  background: #0095dd;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+  font-weight: 800;
+}
+
+button:hover {
+  background: #007bb5;
+}
+
+#controls label {
+  font-size: 1rem;
+  color: var(--green);
+}
+
+.sound-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  border-radius: 4px;
+}
+
+.volume-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  border-radius: 4px;
+}
+
+.volume-control input {
+  width: calc(80% -20px);
+  height: 10px;
+  appearance: none;
+  outline: none;
+  background: #6e7888;
+  border-radius: 5px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.volume-control input::-webkit-slider-thumb {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: #0095dd;
+  border: solid 2px white;
+  border-radius: 50%;
+  cursor: grab;
+}
+
+.score h3 {
+  font-weight: 900;
+  color: var(--green);
+}
