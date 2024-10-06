@@ -8,5 +8,5 @@
 
 ## Você pode jogar os jogos na urls abaixo:
 
-[Play Jogo da Velha Neon](https://urutaudev.com.br/games/jogo-da-velha-neon/)
-[Play Arkanoid Game](https://urutaudev.com.br/games/arkanoid/)
+- [Play Jogo da Velha Neon](https://urutaudev.com.br/games/jogo-da-velha-neon/);
+- [Play Arkanoid Game](https://urutaudev.com.br/games/arkanoid/);
