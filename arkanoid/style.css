@@ -86,6 +86,11 @@ canvas {
   color: var(--green);
 }
 
+#menu > img{
+  width: 250px;
+  max-height: 30%;
+
+}
 #gameOver h1 {
   color: #f22c3d;
 }
