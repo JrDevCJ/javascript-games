@@ -31,7 +31,7 @@
 <tr>
 <td style="width: 33.3333%; text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong><a href="https://urutaudev.com.br/games/matrix-invaders/">Matrix Invaders</a></strong></span>
 
-<img class="alignnone wp-image-382" src="https://urutaudev.com.br/wp-content/uploads/2024/07/jogo-da-velha-300x286.jpg" alt="games Matrix Invaders" width="168" height="160" />
+<img class="alignnone wp-image-382" src="https://urutaudev.com.br/wp-content/uploads/2025/04/matrix-digital-invaders2-e1744499587197-768x500.png" alt="games Matrix Invaders" width="168" height="160" />
 
 &nbsp;</td>
 
