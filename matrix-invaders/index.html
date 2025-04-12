@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Space Invaders - Matrix Style</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+     
+    </style>
+</head>
+
+<body>
+
+    <div id="matrixRainContainer"></div>
+    <h1 class="title">Matr1x 1nvaders</h1>
+    <canvas id="gameCanvas"></canvas>
+    <div id="overlay">
+        <div id="message"></div>
+        <div id="highScores">
+            <h2>Top Players</h2>
+            <ul id="highScoreList"></ul>
+            <button id="playAgainButton">Play Again</button>
+        </div>
+        <button id="restartButton">Back to the Game</button>
+    </div>
+
+    <audio id="shootSound" src="sounds/bounce.wav"></audio>
+    <audio id="explosionSound" src="sounds/brick.wav"></audio>
+    <audio id="winSound" src="sounds/levelup.wav"></audio>
+    <audio id="loseSound" src="sounds/gameover.wav"></audio>
+    <audio id="levelUpSound" src="sounds/levelup.wav"></audio>
+    <audio id="backgroundSound" src="sounds/background.mp3"></audio>
+
+    <script src="matrix-effect.js"></script>
+    <script src="game.js"></script>
+</body>
+
+
+</html>
